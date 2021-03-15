@@ -1,0 +1,38 @@
+body { 
+    background-color:paleturquoise;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    line-height: 1.45;
+    font-size: 1.4em;
+}
+ h1 { color: azure;}
+h1 { font-weight: 200;}
+a, li {
+    color: blue;
+    text-decoration: none;
+    transition: color 50ms;
+}
+a:hover { color: lightseagreen;}
+ul {
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    padding: 0.1em;
+    margin-right: 1em;
+    position: relative;
+}
+ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+ul li:hover ul {
+    display: inline-block;
+}
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+img { width: 300px;}
